@@ -10,7 +10,7 @@ let rec print_seq buf is_first indent (ast : AST.node list) =
   match ast with
   | [] -> ()
   | [node] ->
-      print_node buf false indent node;
+      print_node buf is_first indent node;
       bprintf buf ")"
   | node :: l ->
       print_node buf is_first indent node;
