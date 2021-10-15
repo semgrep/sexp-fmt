@@ -1,0 +1,7 @@
+(executable
+  (public_name sexp-fmt)
+  (name Main)
+  (libraries
+    sexp-fmt
+  )
+)
