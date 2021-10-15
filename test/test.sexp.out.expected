@@ -17,3 +17,5 @@
   ((def)
    (ghi)))
 (((((hello)))))
+((((((hello)
+     (world))))))
