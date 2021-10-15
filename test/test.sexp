@@ -1,0 +1,13 @@
+(program
+  (command
+    (command_name
+      (concatenation
+        (expansion
+          (variable_name))
+        (word)))
+    (word)
+    (word)))
+()
+(() ())
+(() a ())
+(abc ((def) (ghi)))
